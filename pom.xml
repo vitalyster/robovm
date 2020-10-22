@@ -48,6 +48,8 @@
     <properties>
         <sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</sonatypeOssDistMgmtSnapshotsUrl>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <surefire.version>2.22.2</surefire.version>
+        <robovm.version>${project.version}</robovm.version>
     </properties>
 
     <!--  -->
@@ -403,7 +405,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
-                    <version>3.0.0-M3</version>
+                    <version>${surefire.version}</version>
                 </plugin>
 
                 <plugin>

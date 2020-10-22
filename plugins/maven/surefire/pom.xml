@@ -12,11 +12,6 @@
     <artifactId>robovm-surefire-provider</artifactId>
     <packaging>jar</packaging>
 
-    <properties>
-        <surefire.version>3.0.0-M3</surefire.version>
-        <robovm.version>${project.version}</robovm.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.apache.maven</groupId>
