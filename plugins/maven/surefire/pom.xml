@@ -13,7 +13,7 @@
     <packaging>jar</packaging>
 
     <properties>
-        <surefire.version>3.0.0-M3</surefire.version>
+        <surefire.version>3.0.0-M5</surefire.version>
         <robovm.version>${project.version}</robovm.version>
     </properties>
 
